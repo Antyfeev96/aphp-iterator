@@ -4,7 +4,7 @@ namespace PersonList;
 class PersonList
 {
 
-  public function iterate() {
+  public function iterate(): void {
     echo "PersonList::iterate:\n";
     foreach ($this as $key => $value) {
       print "$key => $value\n";
